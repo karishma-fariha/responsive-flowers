@@ -272,6 +272,27 @@ align-items: flex-end;
     width: 100%;
     background-repeat: no-repeat;
 } */
+ /* footer section */
+ .flower-shop-para{
+    font-size: 22px;
+    font-weight: 400;
+   
+ }
+ .last{
+ justify-content: space-around;
+ padding: 50px 160px;
+ }
+ .shop{
+    max-width: 359px;
+    height: 81px;
+    
+ }
+ .shop-logos{
+    gap: 20px;
+ }
+ .shop-info, .shop-info-2{
+    list-style: none;
+ }
 
 /*responsive media query  */
 @media screen and (max-width:576px) {
