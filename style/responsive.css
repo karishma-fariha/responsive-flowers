@@ -44,6 +44,9 @@
     max-width: 1140px;
    
 }
+.cart{
+    align-items: center;
+}
 
 .link{
     text-decoration: none;
@@ -52,7 +55,7 @@
 
 .item{
     list-style: none;
-    margin-right: 30px;
+    
 }
 .menu{
     gap: 1.2rem;
@@ -72,3 +75,23 @@
     max-width: 35.625rem;
     max-height: 299px;
 }
+.banner-bg{
+    max-width: 570px;
+    height: 355px;
+}
+.banner-img{
+    width: 100%;
+}
+ /*responsive media query  */
+ @media screen and (max-width:576px){
+    .navbar,.menu{
+        flex-direction: row;
+    }
+    .hide{
+display: none;
+    }
+    .banner{
+        flex-direction: column-reverse;
+    }
+    
+ }
