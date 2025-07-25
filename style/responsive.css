@@ -328,5 +328,10 @@ align-items: flex-end;
         flex-direction: column;
         margin: 0;
     }
+    .last{
+        display: flex;
+        flex-direction: column;
+        
+    }
 
 }
